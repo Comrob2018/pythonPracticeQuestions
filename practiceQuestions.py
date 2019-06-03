@@ -101,7 +101,10 @@
 #Hints:
 	If the output received is in decimal form, it should be rounded off to its 
 	nearest value (for example, if the output received is 26.0, it should be 
-	printed as 26). Input data being supplied it should be in a comma-separated form.
+	printed as 26). 
+
+#Note:	
+	Input data should be in a comma-separated form.
 
 
 #----------------------------------------#
@@ -120,8 +123,8 @@
 
 		[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
 
-#Hints:
-	Input data being supplied should be in a comma-separated form.
+#Note:
+	Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 8
@@ -138,8 +141,8 @@
 		
 		bag,hello,without,world
 
-#Hints:
-	Input data being supplied should be in a comma-separated form.
+#Note:
+	Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 9
@@ -191,8 +194,8 @@
 	Then the output should be:
 		
 		1010
-#Hints:
-	Input data being supplied should be in a comma-separated form.
+#Note:
+	Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 12
@@ -261,8 +264,8 @@ Question 16
 
 		1,3,5,7,9
 
-#Hints:
-	Input data being supplied should be in a comma-separated form.
+#Note:
+	Input data should be in a comma-separated form.
 	
 #----------------------------------------#
 #Question 17
@@ -296,8 +299,8 @@ Question 16
 		2. At least 1 number between [0-9]
 		3. At least 1 letter between [A-Z]
 		4. At least 1 character from [$#@]
-		5. Minimum length of transaction password: 6
-		6. Maximum length of transaction password: 12
+		5. Minimum length of password: 6
+		6. Maximum length of password: 12
 
 	Your program should accept a sequence of comma separated passwords and will check them
 	according to the above criteria. Passwords that match the criteria are to be printed, 
@@ -311,6 +314,9 @@ Question 16
 	Then, the output of the program should be:
 
 		ABd1234@1
+
+#Note:
+	Input data should be in comma-separated form.
 
 #----------------------------------------#
 #Question 19
