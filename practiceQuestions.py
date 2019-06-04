@@ -10,8 +10,8 @@
 	The numbers obtained should be printed in a comma-separated sequence on a
 	single line.
 
-#Hints: 
-	Consider using the range() method.
+	#Hints: 
+		Consider using the range() method.
 
 #----------------------------------------#
 #Question 2
@@ -19,14 +19,14 @@
 	Write a program which can compute the factorial of a given numbers. The 
 	results should be printed in a comma-separated sequence on a single line.
 		
-#Example:
-	Suppose the following input is supplied to the program:
-		
-		8
+	#Example:
+		Suppose the following input is supplied to the program:
+			
+			8
 
-	Then, the output should be:
-		
-		40320
+		Then, the output should be:
+			
+			40320
 
 #----------------------------------------#
 #Question 3
@@ -35,17 +35,17 @@
 	contains (i, i*i) such that is an integral number between 1 and n (both included).
 	Then the program should print the dictionary.
 		
-#Example
-	Suppose the following input is supplied to the program:
-	
-		8
-	
-	Then, the output should be:
-	
-		{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+	#Example
+		Suppose the following input is supplied to the program:
+		
+			8
+		
+		Then, the output should be:
+		
+			{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-#Hints:
-	Consider using the dict() method.
+	#Hints:
+		Consider using the dict() method.
 
 #----------------------------------------#
 #Question 4
@@ -53,18 +53,18 @@
 	Write a program which accepts a sequence of comma-separated numbers from console and generate
 	a list and a tuple which contains every number.
 		
-#Example:
-	Suppose the following input is supplied to the program:
-	
-		34,67,55,33,12,98
+	#Example:
+		Suppose the following input is supplied to the program:
 		
-	Then, the output should be:
-	
-		['34', '67', '55', '33', '12', '98']
-		('34', '67', '55', '33', '12', '98')
+			34,67,55,33,12,98
+			
+		Then, the output should be:
+		
+			['34', '67', '55', '33', '12', '98']
+			('34', '67', '55', '33', '12', '98')
 
-#Hints:
-	The tuple() method can convert the list data type to the tuple data type.
+	#Hints:
+		The tuple() method can convert the list data type to the tuple data type.
 
 #----------------------------------------#
 #Question 5
@@ -74,8 +74,8 @@
 	printString: to print the string in upper case.
 	Also please include simple test function to test the class methods.
 
-#Hints:
-	Use __init__ method to construct some parameters.
+	#Hints:
+		Use __init__ method to construct some parameters.
 
 #----------------------------------------#
 #Question 6
@@ -89,22 +89,22 @@
 		D is the variable whose values should be input to your program
 		in a comma-separated sequence.
 
-#Example:
-	Let us assume the following comma separated input sequence is given to the program:
-			
-		100, 150, 180
+	#Example:
+		Let us assume the following comma separated input sequence is given to the program:
+				
+			100, 150, 180
 
-	The output of the program should be:
+		The output of the program should be:
 
-		18, 22, 24
+			18, 22, 24
 
-#Hints:
-	If the output received is in decimal form, it should be rounded off to its 
-	nearest value (for example, if the output received is 26.0, it should be 
-	printed as 26). 
+	#Hints:
+		If the output received is in decimal form, it should be rounded off to its 
+		nearest value (for example, if the output received is 26.0, it should be 
+		printed as 26). 
 
-#Note:	
-	Input data should be in a comma-separated form.
+	#Note:	
+		Input data should be in a comma-separated form.
 
 
 #----------------------------------------#
@@ -114,17 +114,17 @@
 	The element value in the i-th row and j-th column of the array should be i*j.
 	
 
-#Example:
-	Suppose the following inputs are given to the program:
-			
-		3,5
+	#Example:
+		Suppose the following inputs are given to the program:
+				
+			3,5
 
-	Then, the output of the program should be:
+		Then, the output of the program should be:
 
-		[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
+			[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
 
-#Note:
-	Input data should be in a comma-separated form.
+	#Note:
+		Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 8
@@ -132,17 +132,17 @@
 	Write a program that accepts a comma separated sequence of words as input and
 	prints the words in a comma-separated sequence after sorting them alphabetically.
 
-#Example:
-	Suppose the following input is supplied to the program:
-		
-		without,hello,bag,world
-		
-	Then the output should be:
-		
-		bag,hello,without,world
+	#Example:
+		Suppose the following input is supplied to the program:
+			
+			without,hello,bag,world
+			
+		Then the output should be:
+			
+			bag,hello,without,world
 
-#Note:
-	Input data should be in a comma-separated form.
+	#Note:
+		Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 9
@@ -150,16 +150,16 @@
 	Write a program that accepts sequence of lines as input and prints the lines after
 	making all characters in the sentence capitalized.
 		
-#Example:
-	Suppose the following input is supplied to the program:
+	#Example:
+		Suppose the following input is supplied to the program:
 
-		Hello world
-		Practice makes perfect
+			Hello world
+			Practice makes perfect
 
-	Then, the output should be:
-		
-		HELLO WORLD
-		PRACTICE MAKES PERFECT
+		Then, the output should be:
+			
+			HELLO WORLD
+			PRACTICE MAKES PERFECT
 
 #----------------------------------------#
 #Question 10
@@ -167,17 +167,17 @@
 	Write a program that accepts a sequence of whitespace separated words as input and prints
 	the words after removing all duplicate words and sorting them alphanumerically.
 		
-#Example:	
-	Suppose the following input is supplied to the program:
-			
-		hello world and practice makes perfect and hello world again
+	#Example:	
+		Suppose the following input is supplied to the program:
+				
+			hello world and practice makes perfect and hello world again
 
-	Then, the output should be:
-			
-		again and hello makes perfect practice world
+		Then, the output should be:
+				
+			again and hello makes perfect practice world
 
-#Hints:
-	Use set container to remove duplicated data automatically and then use sorted() to sort the data.
+	#Hints:
+		Use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
 #----------------------------------------#
 #Question 11
@@ -186,16 +186,16 @@
 	and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are 
 	to be printed in a comma separated sequence.
 
-#Example:
-	Suppose the following input is supplied to the program:
-	
-		0100,0011,1010,1001
-
-	Then the output should be:
+	#Example:
+		Suppose the following input is supplied to the program:
 		
-		1010
-#Note:
-	Input data should be in a comma-separated form.
+			0100,0011,1010,1001
+
+		Then the output should be:
+			
+			1010
+	#Note:
+		Input data should be in a comma-separated form.
 
 #----------------------------------------#
 #Question 12
@@ -209,15 +209,15 @@
 	
 	Write a program that accepts a sentence and calculate the number of letters and digits.
 	
-#Example:	
-	Suppose the following input is supplied to the program:
+	#Example:	
+		Suppose the following input is supplied to the program:
+			
+			hello world! 123
+			
+		Then, the output should be:
 		
-		hello world! 123
-		
-	Then, the output should be:
-	
-		LETTERS 10
-		DIGITS 3
+			LETTERS 10
+			DIGITS 3
 
 #----------------------------------------#
 #Question 14
@@ -225,30 +225,30 @@
 	Write a program that accepts a sentence and calculate the number of upper case letters and
 	lower case letters.
 		
-#Example:
-	Suppose the following input is supplied to the program:
-		
-		Hello world!
-		
-	Then, the output should be:
-		
-		UPPER CASE 1
-		LOWER CASE 9
+	#Example:
+		Suppose the following input is supplied to the program:
+			
+			Hello world!
+			
+		Then, the output should be:
+			
+			UPPER CASE 1
+			LOWER CASE 9
 
 #----------------------------------------#
 #Question 15
 
 	Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
 
-#Example
-	Suppose the following input is supplied to the program:
-	
-		9
-
-	Then, the output should be:
+	#Example
+		Suppose the following input is supplied to the program:
 		
-		11106
-	(9+99+999+9999)=11106
+			9
+
+		Then, the output should be:
+			
+			11106
+		(9+99+999+9999)=11106
 
 #----------------------------------------#
 Question 16
@@ -256,17 +256,17 @@ Question 16
 	Use a list comprehension to square each odd number in a list. The list is input by a 
 	sequence of comma-separated numbers.
 
-#Example	
-	Suppose the following input is supplied to the program:
+	#Example	
+		Suppose the following input is supplied to the program:
 
-		1,2,3,4,5,6,7,8,9
-	
-	Then, the output should be:
+			1,2,3,4,5,6,7,8,9
+		
+		Then, the output should be:
 
-		1,3,5,7,9
+			1,3,5,7,9
 
-#Note:
-	Input data should be in a comma-separated form.
+	#Note:
+		Input data should be in a comma-separated form.
 	
 #----------------------------------------#
 #Question 17
@@ -277,17 +277,17 @@ Question 16
 		D 100
 		W 200
 
-#Example:		
-	Suppose the following input is supplied to the program:
+	#Example:		
+		Suppose the following input is supplied to the program:
 
-		D 300
-		D 300
-		W 200
-		D 100
+			D 300
+			D 300
+			W 200
+			D 100
 
-	Then, the output should be:
-		
-		500
+		Then, the output should be:
+			
+			500
 
 #----------------------------------------#
 #Question 18
@@ -307,17 +307,17 @@ Question 16
 	according to the above criteria. Passwords that match the criteria are to be printed, 
 	each separated by a comma.
 
-#Example:
-	If the following passwords are given as input to the program:
-		
-		ABd1234@1,a F1#,2w3E*,2We3345
+	#Example:
+		If the following passwords are given as input to the program:
+			
+			ABd1234@1,a F1#,2w3E*,2We3345
 
-	Then, the output of the program should be:
+		Then, the output of the program should be:
 
-		ABd1234@1
+			ABd1234@1
 
-#Note:
-	Input data should be in comma-separated form.
+	#Note:
+		Input data should be in comma-separated form.
 
 #----------------------------------------#
 #Question 19
@@ -332,25 +332,25 @@ Question 16
 
 	The priority is name > age > score.
 
-#Example:
-	If the following tuples are given as input to the program:
+	#Example:
+		If the following tuples are given as input to the program:
 
-		(Tom, 19, 80)
-		John, 20, 90
-		Jony, 17, 91
-		Jony, 17, 93
-		Jason, 21, 85
-					      
-	Then, the output of the program should be:
+			(Tom, 19, 80)
+			John, 20, 90
+			Jony, 17, 91
+			Jony, 17, 93
+			Jason, 21, 85
+							
+		Then, the output of the program should be:
 
-		[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), 
-		 ('Jason', '21', '85'), ('Tom', '19', '80')]
+			[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), 
+			('Jason', '21', '85'), ('Tom', '19', '80')]
 
-#Hints:
-	You can use itemgetter to enable multiple sort keys.
+	#Hints:
+		You can use itemgetter to enable multiple sort keys.
 
-#Note:					      
-	Input data should be in comma-separated form.
+	#Note:					      
+		Input data should be in comma-separated form.
 					      
 #----------------------------------------#
 #Question 20
@@ -377,488 +377,428 @@ Question 16
 	distance from current position after a sequence of movement and original point. 
 	If the distance is a float, then just print the nearest integer.
 					      
-#Example:
-	If the following tuples are given as input to the program:
-					      
-		(UP, 5)
-		DOWN 3
-		LEFT 3
-		RIGHT 2
-					      
-	Then, the output of the program should be:
-					      
-		2 
+	#Example:
+		If the following tuples are given as input to the program:
+							
+			(UP, 5)
+			DOWN 3
+			LEFT 3
+			RIGHT 2
+							
+		Then, the output of the program should be:
+							
+			2 
 
 #----------------------------------------#
-Question 22
-Level 3
+# Question 22
+	
+	Write a program to compute the frequency of the words from the input. 
+	The output should output after sorting the key alphanumerically. 
 
-Question:
-Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
-Suppose the following input is supplied to the program:
-New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
-Then, the output should be:
-2:2
-3.:1
-3?:1
-New:1
-Python:5
-Read:1
-and:1
-between:1
-choosing:1
-or:2
-to:1
+	#Example:
+		Suppose the following input is supplied to the program:
+	
+			New to Python or choosing between Python 2 and 
+			Python 3? Read Python 2 or Python 3.
 
-Hints
-In case of input data being supplied to the question, it should be assumed to be a console input.
+		Then, the output should be:
 
+			2:2
+			3.:1
+			3?:1
+			New:1
+			Python:5
+			Read:1
+			and:1
+			between:1
+			choosing:1
+			or:2
+			to:1
 
 #----------------------------------------#
-Question 23
-level 1
+#Question 23
 
-Question:
     Write a method which can calculate square value of number
 
-Hints:
-    Using the ** operator
-
+	#Hints:
+		Use the ** operator
 
 #----------------------------------------#
+#Question 24
 
-Question 24
-Level 1
-
-Question:
-    Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.
-    Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
-    And add document for your own function
+    Python has many built-in functions, and if you do not know how to use it, 
+	you can read document online or find some books. But Python has a built-in
+	document function for every built-in functions. Please write a program to 
+	print some Python built-in functions documents, such as abs(), int(), 
+	raw_input(). And add document for your own function.
     
-Hints:
-    The built-in document method is __doc__
-
-
+	#Hints:
+		The built-in document method is __doc__.
 
 #----------------------------------------#
-Question 25
-Level 1
+#Question 25
 
-Question:
     Define a class, which have a class parameter and have a same instance parameter.
 
-Hints:
-    Define a instance parameter, need add it in __init__ method
-    You can init a object with construct parameter or set the value later
-
-
+	#Hint:
+		Define a instance parameter, need add it in __init__ method
+		You can init a object with construct parameter or set the value later
 
 #----------------------------------------#
-Question:
-Define a function which can compute the sum of two numbers.
+#Question 26
 
-Hints:
-Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
+	Define a function which can compute the sum of two numbers.
 
-
-#----------------------------------------#
-Question:
-Define a function that can convert a integer into a string and print it in console.
-
-Hints:
-
-Use str() to convert a number to string.
-
-
+	#Hint:
+		Define a function with two numbers as arguments. You can compute 
+		the sum in the function and return the value.
 
 #----------------------------------------#
-Question:
-Define a function that can convert a integer into a string and print it in console.
+#Question 27
 
-Hints:
+	Define a function that can convert a integer into a string and print it in console.
 
-Use str() to convert a number to string.
-
-
-#----------------------------------------#
-2.10
-
-Question:
-Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
-
-Hints:
-
-Use int() to convert a string to integer.
-
-
+	#Hint:
+		Use str() to convert a number to string.
 
 #----------------------------------------#
-2.10
+#Question 28
 
+	Define a function that can receive two integer numbers in string form and compute 
+	their sum and then print it in console.
 
-Question:
-Define a function that can accept two strings as input and concatenate them and then print it in console.
-
-Hints:
-
-Use + to concatenate the strings
-
+	#Hint:
+		Use int() to convert a string to integer.
 
 #----------------------------------------#
-2.10
+#Question 29
 
+	Define a function that can accept two strings as input and concatenate them and then 
+	print it in console.
 
-Question:
-Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
-
-Hints:
-
-Use len() function to get the length of a string
+	#Hints:
+		Use + to concatenate the strings
 
 #----------------------------------------#
-2.10
+#Question 30
+	
+	Define a function that can accept two strings as input and print the string with maximum 
+	length in console. If two strings have the same length, then the function should print 
+	all strings line by line.
 
-Question:
-Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
-
-Hints:
-
-Use % operator to check if a number is even or odd.
-
-#----------------------------------------#
-2.10
-
-Question:
-Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
-
-Hints:
-
-Use dict[key]=value pattern to put entry into a dictionary.
-Use ** operator to get power of a number.
+	#Hints:
+		Use len() function to get the length of a string
 
 #----------------------------------------#
-2.10
+#Question 31
+	
+	Define a function that can accept an integer number as input and print the "It is an even number"
+	if the number is even, otherwise print "It is an odd number".
 
-Question:
-Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
-
-Hints:
-
-Use dict[key]=value pattern to put entry into a dictionary.
-Use ** operator to get power of a number.
-Use range() for loops.
+	#Hints:
+		Use % operator to check if a number is even or odd.
 
 #----------------------------------------#
-2.10
+#Question 32	
+	
+	Define a function which can print a dictionary where the keys are numbers between 1 and 3 
+	(both included) and the values are square of keys.
 
-Question:
-Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
-
-Hints:
-
-Use dict[key]=value pattern to put entry into a dictionary.
-Use ** operator to get power of a number.
-Use range() for loops.
-Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
+	#Hints:
+		Use dict[key]=value pattern to put entry into a dictionary.
+		Use ** operator to get power of a number.
 
 #----------------------------------------#
-2.10
+#Question 33
+	
+	Define a function which can print a dictionary where the keys are numbers between 1 and 20 
+	(both included) and the values are square of keys.
 
-Question:
-Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
-
-Hints:
-
-Use dict[key]=value pattern to put entry into a dictionary.
-Use ** operator to get power of a number.
-Use range() for loops.
-Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
+	#Hints:
+		Use dict[key]=value pattern to put entry into a dictionary.
+		Use ** operator to get power of a number.
+		Use range() for loops.
 
 #----------------------------------------#
-2.10
+#Question 34
+	
+	Define a function which can generate a dictionary where the keys are numbers between 1 and 20 
+	(both included) and the values are square of keys. The function should just print the values only.
 
-Question:
-Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
-
-Hints:
-
-Use ** operator to get power of a number.
-Use range() for loops.
-Use list.append() to add values into a list.
-
-#----------------------------------------#
-2.10
-
-Question:
-Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
-
-Hints:
-
-Use ** operator to get power of a number.
-Use range() for loops.
-Use list.append() to add values into a list.
-Use [n1:n2] to slice a list
+	#Hints:
+		Use dict[key]=value pattern to put entry into a dictionary.
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use keys() to iterate keys in the dictionary. Also use item() to get key/value pairs.
 
 #----------------------------------------#
-2.10
+#Question 35
 
-Question:
-Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
+	Define a function which can generate a dictionary where the keys are numbers between 1 and 20 
+	(both included) and the values are square of keys. The function should just print the keys only.
 
-Hints:
-
-Use ** operator to get power of a number.
-Use range() for loops.
-Use list.append() to add values into a list.
-Use [n1:n2] to slice a list
-
-#----------------------------------------#
-2.10
-
-Question:
-Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
-
-Hints:
-
-Use ** operator to get power of a number.
-Use range() for loops.
-Use list.append() to add values into a list.
-Use [n1:n2] to slice a list
+	#Hints:
+		Use dict[key]=value pattern to put entry into a dictionary.
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use keys() to iterate keys in the dictionary. Also use item() to get key/value pairs.
 
 #----------------------------------------#
-2.10
+#Question 36
 
-Question:
-Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
+	Define a function which can generate and print a list where the values are square of numbers between 
+	1 and 20 (both included).
 
-Hints:
-
-Use ** operator to get power of a number.
-Use range() for loops.
-Use list.append() to add values into a list.
-Use tuple() to get a tuple from a list.
+	#Hints:
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use list.append() to add values into a list.
 
 #----------------------------------------#
-2.10
+# Question 37
+	
+	Define a function which can generate a list where the values are square of numbers between 1 and 20 
+	(both included). Then the function needs to print the first 5 elements in the list.
 
-Question:
-With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
-
-Hints:
-
-Use [n1:n2] notation to get a slice from a tuple.
-
-#----------------------------------------#
-2.10
-
-Question:
-Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
-
-Hints:
-
-Use "for" to iterate the tuple
-Use tuple() to generate a tuple from a list.
+	#Hints:
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use list.append() to add values into a list.
+		Use [n1:n2] to slice a list
 
 #----------------------------------------#
-2.14
+#Question 38
 
-Question:
-Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
+	Define a function which can generate a list where the values are square of numbers between 1 and 20 
+	(both included). Then the function needs to print the last 5 elements in the list.
 
-Hints:
-
-Use if statement to judge condition.
-
-#----------------------------------------#
-3.4
-
-Question:
-Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
-
-Hints:
-
-Use filter() to filter some elements in a list.
-Use lambda to define anonymous functions.
+	#Hints:
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use list.append() to add values into a list.
+		Use [n1:n2] to slice a list
 
 #----------------------------------------#
-3.4
+#Question 39
 
-Question:
-Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
+	Define a function which can generate a list where the values are square of numbers between 1 and 20 
+	(both included). Then the function needs to print all values except the first 5 elements in the list.
 
-Hints:
-
-Use map() to generate a list.
-Use lambda to define anonymous functions.
-
-#----------------------------------------#
-3.5
-
-Question:
-Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
-
-Hints:
-
-Use map() to generate a list.
-Use filter() to filter elements of a list.
-Use lambda to define anonymous functions.
+	#Hints:
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use list.append() to add values into a list.
+		Use [n1:n2] to slice a list
 
 #----------------------------------------#
-3.5
+#Question 40
 
-Question:
-Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
+	Define a function which can generate and print a tuple where the value are square of numbers between 
+	1 and 20 (both included). 
 
-Hints:
-
-Use filter() to filter elements of a list.
-Use lambda to define anonymous functions.
-
-#----------------------------------------#
-3.5
-
-Question:
-Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
-
-Hints:
-
-Use map() to generate a list.
-Use lambda to define anonymous functions.
+	#Hints:
+		Use ** operator to get power of a number.
+		Use range() for loops.
+		Use list.append() to add values into a list.
+		Use tuple() to get a tuple from a list.
 
 #----------------------------------------#
-7.2
+#Question 41
 
-Question:
-Define a class named American which has a static method called printNationality.
+	With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and
+	the last half values in one line. 
 
-Hints:
-
-Use @staticmethod decorator to define class static method.
-
-#----------------------------------------#
-
-7.2
-
-Question:
-Define a class named American and its subclass NewYorker. 
-
-Hints:
-
-Use class Subclass(ParentClass) to define a subclass.
+	#Hints:
+		Use [n1:n2] notation to get a slice from a tuple.
 
 #----------------------------------------#
+#Question 42
 
+	Write a program to generate and print another tuple whose values are even numbers in the given tuple 
+	(1,2,3,4,5,6,7,8,9,10). 
 
-7.2
-
-Question:
-Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
-
-Hints:
-
-Use def methodName(self) to define a method.
+	#Hints:
+		Use "for" to iterate the tuple
+		Use tuple() to generate a tuple from a list.
 
 #----------------------------------------#
+#Question 43
 
-7.2
+	Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes",
+	otherwise print "No". 
 
-Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
-
-Hints:
-
-Use def methodName(self) to define a method.
-
-#----------------------------------------#
-
-7.2
-
-Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
-
-Hints:
-
-To override a method in super class, we can define a method with the same name in the super class.
+	#Hints:
+		Use if statement to judge condition.
 
 #----------------------------------------#
+#Question 44
 
+	Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
-Please raise a RuntimeError exception.
-
-Hints:
-
-Use raise() to raise an exception.
-#----------------------------------------#
-Write a function to compute 5/0 and use try/except to catch the exceptions.
-
-Hints:
-
-Use try/except to catch exceptions.
+	#Hints:
+		Use filter() to filter some elements in a list.
+		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-Define a custom exception class which takes a string message as attribute.
+#Question 45
 
-Hints:
+	Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 
-To define a custom exception, we need to define a class inherited from Exception.
-
-#----------------------------------------#
-Question:
-
-Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
-
-Example:
-If the following email address is given as input to the program:
-
-john@google.com
-
-Then, the output of the program should be:
-
-john
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-Hints:
-
-Use \w to match letters.
+	#Hints:
+		Use map() to generate a list.
+		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-Question:
+#Question 46
 
-Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
+	Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 
-Example:
-If the following email address is given as input to the program:
-
-john@google.com
-
-Then, the output of the program should be:
-
-google
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-Hints:
-
-Use \w to match letters.
+	#Hints:
+		Use map() to generate a list.
+		Use filter() to filter elements of a list.
+		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-Question:
+#Question 47
 
-Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
+	Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
-Example:
-If the following words is given as input to the program:
+	#Hints:
+		Use filter() to filter elements of a list.
+		Use lambda to define anonymous functions.
 
-2 cats and 3 dogs.
+#----------------------------------------#
+#Question 48
 
-Then, the output of the program should be:
+	Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 
-['2', '3']
+	#Hints:
+		Use filter() to filter elements of a list.
+		Use lambda to define anonymous functions.
 
-In case of input data being supplied to the question, it should be assumed to be a console input.
+#----------------------------------------#
+#Question 49
 
-Hints:
+	Define a class named American which has a static method called printNationality.
 
-Use re.findall() to find all substring using regex.
+	#Hints:
+		Use @staticmethod decorator to define class static method.
+
+#----------------------------------------#
+#Question 50
+
+	Define a class named American and its subclass NewYorker. 
+
+	#Hints:
+		Use class Subclass(ParentClass) to define a subclass.
+
+#----------------------------------------#
+#Question 51
+
+	Define a class named Circle which can be constructed by a radius. 
+	The Circle class has a method which can compute the area. 
+
+	#Hints:
+		Use def methodName(self) to define a method.
+
+#----------------------------------------#
+#Question 52
+
+	Define a class named Rectangle which can be constructed by a length and width. 
+	The Rectangle class has a method which can compute the area. 
+
+	#Hints:
+		Use def methodName(self) to define a method.
+
+#----------------------------------------#
+#Question 53
+
+	Define a class named Shape and its subclass Square. The Square class has an init 
+	function which takes a length as argument. Both classes have a area function which
+	can print the area of the shape where Shape's area is 0 by default.
+
+	#Hints:
+		To override a method in super class, we can define a method with the same name 
+		in the super class.
+
+#----------------------------------------#
+#Question 54
+
+	Please raise a RuntimeError exception.
+
+	#Hints:
+		Use raise() to raise an exception.
+
+#----------------------------------------#
+#Question 55
+
+	Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+	#Hints:
+		Use try/except to catch exceptions.
+
+#----------------------------------------#
+#Question 56
+
+	Define a custom exception class which takes a string message as attribute.
+
+	#Hints:
+		To define a custom exception, we need to define a class inherited from Exception.
+
+#----------------------------------------#
+#Question 57
+
+	Assuming that we have some email addresses in the "username@companyname.com" format, 
+	please write program to print the user name of a given email address. Both user names 
+	and company names are composed of letters only.
+
+	#Example:
+		If the following email address is given as input to the program:
+
+			john@google.com
+
+		Then, the output of the program should be:
+
+			john
+
+	#Hints:
+		Use '\w' to match letters.
+
+#----------------------------------------#
+#Question 58
+
+	Assuming that we have some email addresses in the "username@companyname.com" format, 
+	please write program to print the company name of a given email address. Both user names
+	and company names are composed of letters only.
+
+	#Example:
+		If the following email address is given as input to the program:
+
+			john@google.com
+
+		Then, the output of the program should be:
+
+			google
+
+	#Hints:
+		Use '\w' to match letters.
+
+#----------------------------------------#
+#Question 59
+
+	Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
+
+	#Example:
+		If the following words is given as input to the program:
+
+			2 cats and 3 dogs.
+
+		Then, the output of the program should be:
+
+			['2', '3']
+
+	#Hints:
+		Use re.findall() to find all substring using regex.
 
 #----------------------------------------#
 Question:
