@@ -801,197 +801,171 @@ Question 16
 		Use re.findall() to find all substring using regex.
 
 #----------------------------------------#
-Question:
+#Question 60
 
+        Print a unicode string "hello world".
 
-Print a unicode string "hello world".
-
-Hints:
-
-Use u'strings' format to define unicode string.
+        #Hints:
+                Use u'strings' format to define unicode string.
 
 #----------------------------------------#
-Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
+#Question 61
 
-Hints:
+        Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
-Use unicode() function to convert.
-
-#----------------------------------------#
-Question:
-
-Write a special comment to indicate a Python source code file is in unicode.
-
-Hints:
+        #Hints:
+                Use unicode() function to convert.
 
 #----------------------------------------#
-Question:
+#Question 62
 
-Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
+        Write a special comment to indicate a Python source code file is in unicode.
 
-Example:
-If the following n is given as input to the program:
+#----------------------------------------#
+#Question 63
 
-5
+        Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
 
-Then, the output of the program should be:
+        #Example:
+                If the following n is given as input to the program:
 
-3.55
+                        5
 
-In case of input data being supplied to the question, it should be assumed to be a console input.
+                Then, the output of the program should be:
 
-Hints:
-Use float() to convert an integer to a float
+                        3.55
+
+        #Hints:
+                Use float() to convert an integer to a float
 					      
 #----------------------------------------#
-Question:
+#Question 64
 
-Write a program to compute:
+        Write a program to compute:
 
-f(n)=f(n-1)+100 when n>0
-and f(0)=1
+                f(n)=f(n-1)+100 when n>0 and f(0)=1 with a given n input by console (n>0).
 
-with a given n input by console (n>0).
+        #Example:
+                If the following n is given as input to the program:
 
-Example:
-If the following n is given as input to the program:
+                        5
 
-5
+                Then, the output of the program should be:
 
-Then, the output of the program should be:
+                        500
 
-500
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-Hints:
-We can define recursive function in Python.
+        #Hints:
+                We can define a recursive function in Python.
 
 #----------------------------------------#
+#Question 65
 
-Question:
+        The Fibonacci Sequence is computed based on the following formula:
 
-The Fibonacci Sequence is computed based on the following formula:
+                f(n)=0 if n=0
+                f(n)=1 if n=1
+                f(n)=f(n-1)+f(n-2) if n>1
 
+        Please write a program to compute the value of f(n) with a given n input by console.
 
-f(n)=0 if n=0
-f(n)=1 if n=1
-f(n)=f(n-1)+f(n-2) if n>1
+        #Example:
+                If the following n is given as input to the program:
 
-Please write a program to compute the value of f(n) with a given n input by console.
+                        7
 
-Example:
-If the following n is given as input to the program:
+                Then, the output of the program should be:
 
-7
+                        13
 
-Then, the output of the program should be:
-
-13
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-Hints:
-We can define recursive function in Python.
-
+        #Hints:
+                We can define a recursive function in Python.
 
 #----------------------------------------#
+#Question 66
 
-Question:
+        The Fibonacci Sequence is computed based on the following formula:
 
-The Fibonacci Sequence is computed based on the following formula:
+                f(n)=0 if n=0
+                f(n)=1 if n=1
+                f(n)=f(n-1)+f(n-2) if n>1
 
+        Please write a program using list comprehension to print the Fibonacci Sequence 
+        in comma separated form with a given n input by console.
 
-f(n)=0 if n=0
-f(n)=1 if n=1
-f(n)=f(n-1)+f(n-2) if n>1
+        #Example:
+                If the following n is given as input to the program:
 
-Please write a program using list comprehension to print the Fibonacci Sequence in comma separated form with a given n input by console.
+                        7
 
-Example:
-If the following n is given as input to the program:
+                Then, the output of the program should be:
 
-7
+                        0,1,1,2,3,5,8,13
 
-Then, the output of the program should be:
-
-0,1,1,2,3,5,8,13
-
-
-Hints:
-We can define recursive function in Python.
-Use list comprehension to generate a list from an existing list.
-Use string.join() to join a list of strings.
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
+        #Hints:
+                We can define a recursive function in Python.
+                Use list comprehension to generate a list from an existing list.
+                Use string.join() to join a list of strings.
 
 #----------------------------------------#
+#Question 67
 
-Question:
+        Please write a program using generator to print the even numbers between 
+        0 and n in comma separated form while n is input by console.
 
-Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
+        #Example:
+                If the following n is given as input to the program:
 
-Example:
-If the following n is given as input to the program:
+                        10
 
-10
+                Then, the output of the program should be:
 
-Then, the output of the program should be:
+                        0,2,4,6,8,10
 
-0,2,4,6,8,10
-
-Hints:
-Use yield to produce the next value in generator.
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
+        #Hints:
+                Use yield to produce the next value in generator.
 
 #----------------------------------------#
-Question:
+#Question 68
 
-Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
+        Please write a program using generator to print the numbers which can be divisible by 5 and 7 
+        between 0 and n in comma separated form while n is input by console.
 
-Example:
-If the following n is given as input to the program:
+        #Example:
+                If the following n is given as input to the program:
 
-100
+                        100
 
-Then, the output of the program should be:
+                Then, the output of the program should be:
 
-0,35,70
+                        0,35,70
 
-Hints:
-Use yield to produce the next value in generator.
-
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-#----------------------------------------#
-
-Question:
-
-
-Please write assert statements to verify that every number in the list [2,4,6,8] is even.
-
-
-
-Hints:
-Use "assert expression" to make assertion.
+        #Hints:
+                Use yield to produce the next value in generator.
 
 #----------------------------------------#
-Question:
+#Question 69
 
-Please write a program which accepts basic mathematic expression from console and print the evaluation result.
+        Please write assertion statements to verify that every number in the list [2,4,6,8] is even.
 
-Example:
-If the following string is given as input to the program:
+        #Hints:
+                Use "assert expression" to make assertion.
 
-35+3
+#----------------------------------------#
+#Question 70
 
-Then, the output of the program should be:
+        Please write a program which accepts basic mathematic expression from console and print the evaluation result.
 
-38
+        #Example:
+                If the following string is given as input to the program:
 
-Hints:
-Use eval() to evaluate an expression.
+                        35+3
+ 
+                Then, the output of the program should be:
+
+                        38
+
+        #Hints:
+                Use eval() to evaluate an expression.
 
 #----------------------------------------#
 Question:
