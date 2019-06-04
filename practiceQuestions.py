@@ -1,4 +1,3 @@
-#Solutions are in the solutions.py file
 #Unless stated otherwise:
 #	Input data being supplied to the question should be a console input.
 
