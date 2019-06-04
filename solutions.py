@@ -1,5 +1,3 @@
-#Questions are in the practiceQuestions.py file
-
 #----------------------------------------#
 #Question 1
 
