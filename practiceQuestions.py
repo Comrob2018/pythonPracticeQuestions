@@ -358,8 +358,8 @@ Question 16
 	Define a class with a generator which can iterate the numbers, which are divisible 
 	by 7, between a given range 0 and n.
 
-#Hints:
-	Consider using yield
+	#Hints:
+		Consider using yield
 
 #----------------------------------------#
 #Question 21
@@ -433,12 +433,12 @@ Question 16
 	raw_input(). And add document for your own function.
     
 	#Hints:
-		The built-in document method is __doc__.
+		The built-in document method is __doc__
 
 #----------------------------------------#
 #Question 25
 
-    Define a class, which have a class parameter and have a same instance parameter.
+    	Define a class, which have a class parameter and have a same instance parameter.
 
 	#Hint:
 		Define a instance parameter, need add it in __init__ method
@@ -555,7 +555,7 @@ Question 16
 		Use list.append() to add values into a list.
 
 #----------------------------------------#
-# Question 37
+#Question 37
 	
 	Define a function which can generate a list where the values are square of numbers between 1 and 20 
 	(both included). Then the function needs to print the first 5 elements in the list.
@@ -581,18 +581,6 @@ Question 16
 #----------------------------------------#
 #Question 39
 
-	Define a function which can generate a list where the values are square of numbers between 1 and 20 
-	(both included). Then the function needs to print all values except the first 5 elements in the list.
-
-	#Hints:
-		Use ** operator to get power of a number.
-		Use range() for loops.
-		Use list.append() to add values into a list.
-		Use [n1:n2] to slice a list
-
-#----------------------------------------#
-#Question 40
-
 	Define a function which can generate and print a tuple where the value are square of numbers between 
 	1 and 20 (both included). 
 
@@ -603,7 +591,7 @@ Question 16
 		Use tuple() to get a tuple from a list.
 
 #----------------------------------------#
-#Question 41
+#Question 40
 
 	With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and
 	the last half values in one line. 
@@ -612,7 +600,7 @@ Question 16
 		Use [n1:n2] notation to get a slice from a tuple.
 
 #----------------------------------------#
-#Question 42
+#Question 41
 
 	Write a program to generate and print another tuple whose values are even numbers in the given tuple 
 	(1,2,3,4,5,6,7,8,9,10). 
@@ -622,7 +610,7 @@ Question 16
 		Use tuple() to generate a tuple from a list.
 
 #----------------------------------------#
-#Question 43
+#Question 42
 
 	Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes",
 	otherwise print "No". 
@@ -631,7 +619,7 @@ Question 16
 		Use if statement to judge condition.
 
 #----------------------------------------#
-#Question 44
+#Question 43
 
 	Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
@@ -640,7 +628,7 @@ Question 16
 		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-#Question 45
+#Question 44
 
 	Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 
@@ -649,7 +637,7 @@ Question 16
 		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-#Question 46
+#Question 45
 
 	Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 
@@ -659,7 +647,7 @@ Question 16
 		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-#Question 47
+#Question 46
 
 	Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
@@ -668,7 +656,7 @@ Question 16
 		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-#Question 48
+#Question 47
 
 	Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 
@@ -677,7 +665,7 @@ Question 16
 		Use lambda to define anonymous functions.
 
 #----------------------------------------#
-#Question 49
+#Question 48
 
 	Define a class named American which has a static method called printNationality.
 
@@ -685,7 +673,7 @@ Question 16
 		Use @staticmethod decorator to define class static method.
 
 #----------------------------------------#
-#Question 50
+#Question 49
 
 	Define a class named American and its subclass NewYorker. 
 
@@ -693,7 +681,7 @@ Question 16
 		Use class Subclass(ParentClass) to define a subclass.
 
 #----------------------------------------#
-#Question 51
+#Question 50
 
 	Define a class named Circle which can be constructed by a radius. 
 	The Circle class has a method which can compute the area. 
@@ -702,7 +690,7 @@ Question 16
 		Use def methodName(self) to define a method.
 
 #----------------------------------------#
-#Question 52
+#Question 51
 
 	Define a class named Rectangle which can be constructed by a length and width. 
 	The Rectangle class has a method which can compute the area. 
@@ -711,7 +699,7 @@ Question 16
 		Use def methodName(self) to define a method.
 
 #----------------------------------------#
-#Question 53
+#Question 52
 
 	Define a class named Shape and its subclass Square. The Square class has an init 
 	function which takes a length as argument. Both classes have a area function which
@@ -722,7 +710,7 @@ Question 16
 		in the super class.
 
 #----------------------------------------#
-#Question 54
+#Question 53
 
 	Please raise a RuntimeError exception.
 
@@ -730,7 +718,7 @@ Question 16
 		Use raise() to raise an exception.
 
 #----------------------------------------#
-#Question 55
+#Question 54
 
 	Write a function to compute 5/0 and use try/except to catch the exceptions.
 
@@ -738,7 +726,7 @@ Question 16
 		Use try/except to catch exceptions.
 
 #----------------------------------------#
-#Question 56
+#Question 55
 
 	Define a custom exception class which takes a string message as attribute.
 
@@ -746,7 +734,7 @@ Question 16
 		To define a custom exception, we need to define a class inherited from Exception.
 
 #----------------------------------------#
-#Question 57
+#Question 56
 
 	Assuming that we have some email addresses in the "username@companyname.com" format, 
 	please write program to print the user name of a given email address. Both user names 
@@ -765,7 +753,7 @@ Question 16
 		Use '\w' to match letters.
 
 #----------------------------------------#
-#Question 58
+#Question 57
 
 	Assuming that we have some email addresses in the "username@companyname.com" format, 
 	please write program to print the company name of a given email address. Both user names
@@ -784,7 +772,7 @@ Question 16
 		Use '\w' to match letters.
 
 #----------------------------------------#
-#Question 59
+#Question 58
 
 	Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
 
@@ -801,7 +789,7 @@ Question 16
 		Use re.findall() to find all substring using regex.
 
 #----------------------------------------#
-#Question 60
+#Question 59
 
         Print a unicode string "hello world".
 
@@ -809,7 +797,7 @@ Question 16
                 Use u'strings' format to define unicode string.
 
 #----------------------------------------#
-#Question 61
+#Question 60
 
         Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
@@ -817,12 +805,12 @@ Question 16
                 Use unicode() function to convert.
 
 #----------------------------------------#
-#Question 62
+#Question 61
 
         Write a special comment to indicate a Python source code file is in unicode.
 
 #----------------------------------------#
-#Question 63
+#Question 62
 
         Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
 
@@ -839,7 +827,7 @@ Question 16
                 Use float() to convert an integer to a float
 					      
 #----------------------------------------#
-#Question 64
+#Question 63
 
         Write a program to compute:
 
@@ -858,7 +846,7 @@ Question 16
                 We can define a recursive function in Python.
 
 #----------------------------------------#
-#Question 65
+#Question 64
 
         The Fibonacci Sequence is computed based on the following formula:
 
@@ -881,7 +869,7 @@ Question 16
                 We can define a recursive function in Python.
 
 #----------------------------------------#
-#Question 66
+#Question 65
 
         The Fibonacci Sequence is computed based on the following formula:
 
@@ -907,7 +895,7 @@ Question 16
                 Use string.join() to join a list of strings.
 
 #----------------------------------------#
-#Question 67
+#Question 66
 
         Please write a program using generator to print the even numbers between 
         0 and n in comma separated form while n is input by console.
@@ -925,7 +913,7 @@ Question 16
                 Use yield to produce the next value in generator.
 
 #----------------------------------------#
-#Question 68
+#Question 67
 
         Please write a program using generator to print the numbers which can be divisible by 5 and 7 
         between 0 and n in comma separated form while n is input by console.
@@ -943,7 +931,7 @@ Question 16
                 Use yield to produce the next value in generator.
 
 #----------------------------------------#
-#Question 69
+#Question 68
 
         Please write assertion statements to verify that every number in the list [2,4,6,8] is even.
 
@@ -951,7 +939,7 @@ Question 16
                 Use "assert expression" to make assertion.
 
 #----------------------------------------#
-#Question 70
+#Question 69
 
         Please write a program which accepts basic mathematic expression from 
 	console and print the evaluation result.
@@ -969,7 +957,7 @@ Question 16
                 Use eval() to evaluate an expression.
 
 #----------------------------------------#
-#Question 71
+#Question 70
 
 	Please write a binary search function which searches an item in a sorted list. 
 	The function should return the index of element to be searched in the list.
@@ -978,7 +966,7 @@ Question 16
 		Use if/elif to deal with conditions.
 
 #----------------------------------------#
-#Question 72
+#Question 71
 
 	Generate a random float with a value between 10 and 100 using Python math module.
 
@@ -987,7 +975,7 @@ Question 16
 
 
 #----------------------------------------#
-#Question 73
+#Question 72
 
 	Generate a random float with a value between 5 and 95 using Python math module.
 
@@ -995,7 +983,7 @@ Question 16
 		Use random.random() to generate a random float in [0,1].
 
 #----------------------------------------#
-#Question 74
+#Question 73
 
 	Please write a program to output a random even number between 0 and 10 inclusive using 
 	random module and list comprehension.
@@ -1004,7 +992,7 @@ Question 16
 		Use random.choice() to a random element from a list.
 
 #----------------------------------------#
-#Question 75
+#Question 74
 
 	Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10
 	inclusive using random module and list comprehension.
@@ -1013,7 +1001,7 @@ Question 16
 		Use random.choice() to a random element from a list.
 
 #----------------------------------------#
-#Question 76
+#Question 75
 
 	Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
 
@@ -1021,7 +1009,7 @@ Question 16
 		Use random.sample() to generate a list of random values.
 
 #----------------------------------------#
-#Question 77
+#Question 76
 
 	Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
 
@@ -1029,7 +1017,7 @@ Question 16
 		Use random.sample() to generate a list of random values.
 
 #----------------------------------------#
-#Question 78
+#Question 77
 
 	Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7, 
 	between 1 and 1000 inclusive.
@@ -1038,7 +1026,7 @@ Question 16
 		Use random.sample() to generate a list of random values.
 
 #----------------------------------------#
-#Question 79
+#Question 78
 
 	Please write a program to randomly print a integer number between 7 and 15 inclusive.
 
@@ -1046,7 +1034,7 @@ Question 16
 		Use random.randrange() to a random integer in a given range.
 
 #----------------------------------------#
-#Question 80
+#Question 79
 
 	Please write a program to compress and decompress the string "hello world!hello world!hello world!hello world!".
 
@@ -1054,7 +1042,7 @@ Question 16
 		Use zlib.compress() and zlib.decompress() to compress and decompress a string.
 
 #----------------------------------------#
-#Question 81
+#Question 80
 
 	Please write a program to print the running time of execution of "1+1" for 100 times.
 
@@ -1062,23 +1050,15 @@ Question 16
 		Use timeit() function to measure the running time.
 
 #----------------------------------------#
+#Question 81
+
+	Please write a program to shuffle and print the list [3,6,7,8].
+
+	#Hints:
+		Use shuffle() function to shuffle a list.
+
+#----------------------------------------#
 #Question 82
-
-	Please write a program to shuffle and print the list [3,6,7,8].
-
-	#Hints:
-		Use shuffle() function to shuffle a list.
-
-#----------------------------------------#
-#Question 83
-
-	Please write a program to shuffle and print the list [3,6,7,8].
-
-	#Hints:
-		Use shuffle() function to shuffle a list.
-
-#----------------------------------------#
-#Question 84
 
 	Please write a program to generate all sentences where subject is in ["I", "You"] 
 	and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
@@ -1087,7 +1067,7 @@ Question 16
 		Use list[index] notation to get a element from a list.
 
 #----------------------------------------#
-#Question 85
+#Question 83
 					      
 	Please write a program to print the list after removing even numbers in 
 	[5,6,77,45,22,12,24].
@@ -1096,7 +1076,7 @@ Question 16
 		Use list comprehension to delete a bunch of element from a list.
 
 #----------------------------------------#
-#Question 85
+#Question 84
 
 	By using list comprehension, please write a program to print the list after
 	removing numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
@@ -1105,7 +1085,7 @@ Question 16
 		Use list comprehension to delete a bunch of element from a list.
 
 #----------------------------------------#
-#Question 87
+#Question 85
 
 	By using list comprehension, please write a program to print the list after 
 	removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
@@ -1116,7 +1096,7 @@ Question 16
 
 #----------------------------------------#
 
-#Question 88
+#Question 86
 
 	By using list comprehension, please write a program generate a 3*5*8 3D array 
 	whose each element is 0.
@@ -1125,7 +1105,7 @@ Question 16
 		Use list comprehension to make an array.
 
 #----------------------------------------#
-#Question 89
+#Question 87
 
 	By using list comprehension, please write a program to print the list after 
 	removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
@@ -1135,7 +1115,7 @@ Question 16
 		Use enumerate() to get (index, value) tuple.
 
 #----------------------------------------#
-#Question 90
+#Question 88
 
 	By using list comprehension, please write a program to print the list after 
 	removing the value 24 in [12,24,35,24,88,120,155].
@@ -1144,7 +1124,7 @@ Question 16
 		Use list's remove method to delete a value.
 
 #----------------------------------------#
-#Question 90
+#Question 89
 
 	With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program 
 	to make a list whose elements are in both of the above given lists.
@@ -1153,7 +1133,7 @@ Question 16
 		Use set() and "&=" to do set intersection operation.
 
 #----------------------------------------#
-#Question 91
+#Question 90
 					      
 	With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list
 	after removing all duplicate values with original order reserved.
@@ -1162,7 +1142,7 @@ Question 16
 		Use set() to store a number of values without duplicate.
 
 #----------------------------------------#
-#Question 92
+#Question 91
 
 	Define a class Person and its two child classes: Male and Female. All classes have 
 	a method "getGender" which can print "Male" for Male class and "Female" for Female class.
@@ -1171,7 +1151,7 @@ Question 16
 		Use Subclass(Parentclass) to define a child class.
 
 #----------------------------------------#
-#Question 93
+#Question 92
 
 	Please write a program which count and print the numbers of each character in a string 
 	input by console.
@@ -1196,7 +1176,7 @@ Question 16
 		Use dict.get() method to lookup a key with default value.
 
 #----------------------------------------#
-Question 94
+Question 93
 
 	Please write a program which accepts a string from console and print it in reverse order.
 
@@ -1213,7 +1193,7 @@ Question 94
 		Use list[::-1] to iterate a list in a reverse order.
 
 #----------------------------------------#
-#Question 95
+#Question 94
 
 	Please write a program which accepts a string from console and print the 
 	characters that have even indexes.
@@ -1231,7 +1211,7 @@ Question 94
 		Use list[::2] to iterate a list by step 2.
 
 #----------------------------------------#
-#Question 96
+#Question 95
 
 	Please write a program which prints all permutations of [1,2,3]
 
@@ -1239,7 +1219,7 @@ Question 94
 		Use itertools.permutations() to get permutations of list.
 
 #----------------------------------------#
-#Question 97
+#Question 96
 
 	Write a program to solve a classic ancient Chinese puzzle: 
 	We count 35 heads and 94 legs among the chickens and rabbits in a farm. 
