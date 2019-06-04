@@ -9,3 +9,27 @@
                
 ## Advanced - 
 ### Someone who uses Python to solve more complex problem using more rich libraries functions and data structures and algorithms. They should be able to solve the problem using several Python standard packages and advanced techniques. The answers cannot be found in most  textbooks and will require critical thinking to solve.
+<pre>
+## Format - Question file
+### #-----------------------------------#
+### #Question ##
+###         
+###        Make a Program that does stuff.
+###                    
+###        #Example:
+###                cool beans and franks bro.
+###        #Hint:
+###                This program uses things to do stuff
+###        #Note:
+###                This program may output things differently
+### #--------------------------------------#
+### #Question ##
+
+## Format - Solutions
+### #--------------------------------------#
+### #Question ##
+### 
+### #Solution:
+### Code to do things
+### #--------------------------------------#
+</pre>
