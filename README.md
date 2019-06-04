@@ -10,7 +10,7 @@
 ## Advanced - 
 ### Someone who uses Python to solve more complex problem using more rich libraries functions and data structures and algorithms. They should be able to solve the problem using several Python standard packages and advanced techniques. The answers cannot be found in most  textbooks and will require critical thinking to solve.
 <pre>
-Format - Question file
+Format - practiceQuestions.py file
 #-----------------------------------#
 #Question 1
         
@@ -24,9 +24,12 @@ Format - Question file
                Information about the question output
 #--------------------------------------#
 
----------------------------------------------------------
 
-Format - Solutions
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+
+Format - solutions.py
 #--------------------------------------#
 #Question 1
  
