@@ -22,8 +22,9 @@ Format - practiceQuestions.py file
                Helpful tips about completing the challenges
        #Note:
                Information about the question output
+               
 #--------------------------------------#
-
+#Next Question
 
 --------------------------------------------------------------
 --------------------------------------------------------------
@@ -35,6 +36,8 @@ Format - solutions.py
  
 #Solution:
 Code to do things as explained in question. 
+
 #--------------------------------------#
+#Next Question
 
 </pre>
