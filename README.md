@@ -17,11 +17,11 @@ Format - Question file
        Make a Program that does stuff.
                     
        #Example:
-               cool beans and franks bro.
+               Expected output and input for the question.
        #Hint:
-               This program uses things to do stuff
+               Helpful tips about completing the challenges
        #Note:
-               This program may output things differently
+               Information about the question output
 #--------------------------------------#
 
 ---------------------------------------------------------
@@ -31,7 +31,7 @@ Format - Solutions
 #Question 1
  
 #Solution:
-Code to do things
+Code to do things as explained in question. 
 #--------------------------------------#
 
 </pre>
