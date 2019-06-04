@@ -35,7 +35,7 @@ Format - solutions.py file
 #Question 1
  
 #Solution:
-Code to do things as explained in question. 
+         Code to do things as explained in question. 
 
 #--------------------------------------#
 #Next Question
