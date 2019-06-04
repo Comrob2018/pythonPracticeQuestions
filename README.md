@@ -30,7 +30,7 @@ Format - practiceQuestions.py file
 --------------------------------------------------------------
 
 
-Format - solutions.py
+Format - solutions.py file
 #--------------------------------------#
 #Question 1
  
