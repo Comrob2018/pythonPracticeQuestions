@@ -1,5 +1,5 @@
 # 96 Python Practice Questions
-## There are simple, intermediate, and advanced challenges. These are for Python 3, if there are any issues please contact @Comrob2019.
+## There are simple, intermediate, and advanced challenges. These are for Python 3, if there are any issues please contact @Comrob2018.
 
 ## Simple -
 ### Someone who has just gone through an introductory Python course. They can solve some problems with 1 or 2 Python classes or functions. Normally, the answers could directly be found in the textbooks.
