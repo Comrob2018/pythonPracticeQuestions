@@ -9,9 +9,7 @@
 	The numbers obtained should be printed in a comma-separated sequence on a
 	single line.
 
-	#Hints: 
-		Consider using the range() method.
-
+	
 #----------------------------------------#
 #Question 2
 		
@@ -43,9 +41,7 @@
 		
 			{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-	#Hints:
-		Consider using the dict() method.
-
+	
 #----------------------------------------#
 #Question 4
 	
@@ -61,9 +57,6 @@
 		
 			['34', '67', '55', '33', '12', '98']
 			('34', '67', '55', '33', '12', '98')
-
-	#Hints:
-		The tuple() method can convert the list data type to the tuple data type.
 
 #----------------------------------------#
 #Question 5
@@ -264,8 +257,6 @@ Question 16
 
 			1,3,5,7,9
 
-	#Note:
-		Input data should be in a comma-separated form.
 	
 #----------------------------------------#
 #Question 17
@@ -336,17 +327,14 @@ Question 16
 
 			(Tom, 19, 80)
 			John, 20, 90
-			Jony, 17, 91
-			Jony, 17, 93
+			Joni, 17, 91
+			Judy, 17, 93
 			Jason, 21, 85
 							
 		Then, the output of the program should be:
 
-			[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), 
+			[('Judy', '17', '93'), ('Joni', '17', '91'), ('John', '20', '90'), 
 			('Jason', '21', '85'), ('Tom', '19', '80')]
-
-	#Hints:
-		You can use itemgetter to enable multiple sort keys.
 
 	#Note:					      
 		Input data should be in comma-separated form.
@@ -419,25 +407,19 @@ Question 16
 
     Write a method which can calculate square value of number
 
-	#Hints:
-		Use the ** operator
-
 #----------------------------------------#
 #Question 24
 
-    Python has many built-in functions, and if you do not know how to use it, 
-	you can read document online or find some books. But Python has a built-in
-	document function for every built-in functions. Please write a program to 
-	print some Python built-in functions documents, such as abs(), int(), 
-	raw_input(). And add document for your own function.
+    write a program to print some Python built-in functions documents, such as abs(), int(), 
+    input(). And add document for your own function.
     
-	#Hints:
-		The built-in document method is __doc__
+    #Hints:
+	The built-in document method is __doc__
 
 #----------------------------------------#
 #Question 25
 
-    	Define a class, which have a class parameter and have a same instance parameter.
+    	Define a class, which have a class parameter and have the same instance parameter.
 
 	#Hint:
 		Define a instance parameter, need add it in __init__ method
@@ -448,17 +430,10 @@ Question 16
 
 	Define a function which can compute the sum of two numbers.
 
-	#Hint:
-		Define a function with two numbers as arguments. You can compute 
-		the sum in the function and return the value.
-
 #----------------------------------------#
 #Question 27
 
 	Define a function that can convert a integer into a string and print it in console.
-
-	#Hint:
-		Use str() to convert a number to string.
 
 #----------------------------------------#
 #Question 28
@@ -466,17 +441,11 @@ Question 16
 	Define a function that can receive two integer numbers in string form and compute 
 	their sum and then print it in console.
 
-	#Hint:
-		Use int() to convert a string to integer.
-
 #----------------------------------------#
 #Question 29
 
 	Define a function that can accept two strings as input and concatenate them and then 
 	print it in console.
-
-	#Hints:
-		Use + to concatenate the strings
 
 #----------------------------------------#
 #Question 30
@@ -485,17 +454,11 @@ Question 16
 	length in console. If two strings have the same length, then the function should print 
 	all strings line by line.
 
-	#Hints:
-		Use len() function to get the length of a string
-
 #----------------------------------------#
 #Question 31
 	
 	Define a function that can accept an integer number as input and print the "It is an even number"
 	if the number is even, otherwise print "It is an odd number".
-
-	#Hints:
-		Use % operator to check if a number is even or odd.
 
 #----------------------------------------#
 #Question 32	
@@ -547,11 +510,6 @@ Question 16
 
 	Define a function which can generate and print a list where the values are square of numbers between 
 	1 and 20 (both included).
-
-	#Hints:
-		Use ** operator to get power of a number.
-		Use range() for loops.
-		Use list.append() to add values into a list.
 
 #----------------------------------------#
 #Question 37
